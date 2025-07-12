@@ -1,4 +1,4 @@
-## The Power of Your Todo API
+## The Power of Todo API
 1. Efficiency: Using maps for in-memory storage makes CRUD operations (especially searches) very fast (O(1)), much better than brute-force slice iteration.
 
 2. Concurrency Safety: Using sync.Mutex ensures data doesn't get corrupted if many API requests come in simultaneously.
